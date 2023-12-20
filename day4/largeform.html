@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+
+    <form action="submit">
+        <h1>this is data form</h1>
+        <hr>
+
+        <div>
+            <label for="fname"></label>
+            <input type="text" name="fname" id="fname" placeholder="First name">
+
+            <label for="lname"></label>
+            <input type="text" name="lname" id="lname" placeholder="last name">
+        </div>
+
+        <br>
+        <div>
+            <label for="dob">Birth date</label>
+            <input type="date" name="DOB" id="dob">
+        </div>
+
+        <br>
+        <div>
+
+            Gender :
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="male" value = male>
+
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="female" value="female">
+
+            <label for="other">other</label>
+            <input type="radio" name="gender" id="other" value= "other">
+
+        </div>
+
+        <br>
+        <div>
+            interest : 
+            <label for="web development">web development</label> 
+            <input type="checkbox" name="choice" id="web development" value="web development">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="app development">app development</label>
+            <input type="checkbox" name="choice" id="app development" value="app development">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="data science">data science</label>
+            <input type="checkbox" name="choice" id="data science" value="data science">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="cyber security">cyber security</label>
+            <input type="checkbox" name="choice" id="cyber security" value="cyber security"> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <label for="cloud computing">cloud computing</label>
+            <input type="checkbox" name="choice" id="cloud computing" value="cloud computing">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="other">other</label>
+            <input type="checkbox" name="choice" id="other" value="other">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+
+        <div>
+            <br>
+
+            <label for="phone">tel no : </label>
+            <input type="tel" name="phone" id="phone" required>
+            <br><br>
+
+            <label for="mail">E-mail : </label>
+            <input type="email" name="mail" id="mail">
+
+        </div>
+        <br>
+        <div>
+            <label for="city"> city :</label>
+            <select name="city" id="city"> 
+                <option value="tokyo">tokyo</option>
+                <option value="london">london</option>
+                <option value="rome">rome</option>
+                <option value="belgium">belgium</option>
+            </select>
+        </div>
+
+        <br>
+        <div>
+            <textarea name="address" id="address" cols="30" rows="5" placeholder="enter your address"></textarea>
+        </div>
+
+        <div>
+            <button type="submit" value="submit">submit</button>
+            <button type="reset" value="reset">reset</button>
+        </div>
+
+
+
+    </form>
+    
+</body>
+</html>
